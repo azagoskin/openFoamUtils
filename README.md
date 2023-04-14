@@ -13,23 +13,23 @@ Qiang,  Z.  A  new  simpler  rotation/curvature  correction method for Spalart�
 Модель турбулентности k-omega-sst с поправкой на кривизну линий тока:
 Smirnov, P. Sensitization of the SST turbulence model to rotation and curvature by applying the Spalart – Shur correction  term  /  P.  Smirnov,  F.  Menter  //  Proc.  ASME  Turbo  Expo 2008: Power for Land, Sea and Air, 2008. 
 
-#kOmegaSSTRCHellsten
+## kOmegaSSTRCHellsten
 Модель турбулентности k-omega-sst с поправкой на кривизну линий тока в представлении Hellsten
 Hellsten,  A.  Some  Improvements  in  Menter's  k-omega SST Turbulence Model / A. Hellsten // AIAA-98-2554, 1998.
 
-##Utilities
-###aspectRatio
+## Utilities
+### aspectRatio
 Утилита для создания векторного поля с отношением сторон ячеек для последующего направленного измельчения
 
-###deltasCalc
+### deltasCalc
 Утилита для расчета дельт сетки
 
-###heatCalc
+### heatCalc
 Утилита для расчета теплового потока от поверхности по полю градиентов температуры и температуропроводности
 
-###yPlusRAS
+### yPlusRAS
 Расчет y+ поверхностей (в OpenFOAM используется y* вместо y+)
 
-##Solvers
-###prandtlSolver
+## Solvers
+### prandtlSolver
 Решатель для первой в мире модели турбулентности. Практической ценности нет - только в образовательных целях
